@@ -103,7 +103,7 @@ class EmployeeRow extends React.Component {
                 <td>
                     <Button variant="danger" size="sm" onClick={this.toggleModal}>X</Button>
 
-                    <Modal show={this.state.modalShow} onHide={this.toggleModal} >
+                    <Modal show={this.state.modalShow} onHide={this.toggleModal} centered >
                         <Modal.Header closeButton>
                                 Delete Employee?
                         </Modal.Header>
