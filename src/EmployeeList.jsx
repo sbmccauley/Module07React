@@ -85,7 +85,7 @@ class EmployeeRow extends React.Component {
   
     onDeleteClick() {
        this.props.deleteEmployee(this.props.employee._id)
-    //    this.setState({modalSHow: !this.state.modalShow})
+    
     }
 
 
